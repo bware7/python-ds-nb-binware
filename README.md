@@ -5,6 +5,14 @@
 ## Project Summary
 This project covers fundamental concepts in Python programming, focusing on data structures, basic operations, and Jupyter notebooks. The tasks include implementing mathematical operations, writing custom functions, working with dictionaries and lists, and building a pattern-drawing program in Python. The project demonstrates key skills in using Python for data analysis, iteration, and managing collections, as well as documenting work effectively.
 
+## Conversion to HTML
+After completing all tasks in the Jupyter notebooks, we converted them to HTML format to make them accessible as web pages for sharing and review. This was done using the command-line tool `nbconvert` as follows:
+
+```sh
+jupyter nbconvert --to html python-ds.ipynb
+jupyter nbconvert --to html s577829.ipynb
+```
+
 ## Rubric
 Each question is worth one point.
 
