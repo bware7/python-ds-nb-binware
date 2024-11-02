@@ -5,10 +5,24 @@ __pycache__/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# VS Code settings (optional)
+# Virtual environment
+.venv/
+env/
+
+# VS Code settings 
 .vscode/
 
 # OS-specific files
 Thumbs.db  # Windows
 
-.venv/
+# Logs
+*.log
+
+# Python-specific files
+*.pyc
+*.pyo
+*.pyd
+*.whl
+
+# Jupyter notebook hidden files
+*.ipynb_checkpoints
